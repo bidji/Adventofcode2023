@@ -25,5 +25,5 @@ def sums(filename: str, nb_red: int, nb_green: int, nb_blue: int) -> int:
 	return result
 
 
-print("example: ", sums(filename="sample", nb_red=12, nb_green=13, nb_blue=14))
+print("sample: ", sums(filename="sample", nb_red=12, nb_green=13, nb_blue=14))
 print("input: ", sums(filename="input", nb_red=12, nb_green=13, nb_blue=14))

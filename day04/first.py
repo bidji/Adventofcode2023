@@ -18,5 +18,5 @@ def sums(filename: str) -> int:
 	return result
 
 
-print("example: ", sums(filename="sample"))
+print("sample: ", sums(filename="sample"))
 print("input: ", sums(filename="input"))

@@ -24,6 +24,6 @@ def sum(filename: str) -> int:
 
 	return result
 
-print('example:', sum("example2"))
+print('sample:', sum("sample2"))
 print('input:', sum("input"))
 

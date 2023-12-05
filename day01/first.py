@@ -9,6 +9,6 @@ def sum(filename: str) -> int:
 			result += int(f"{digits[0]}{digits[-1]}")
 	return result
 
-print("example: ", sum("example1"))
+print("sample: ", sum("sample1"))
 print("input: ", sum("input"))
 
