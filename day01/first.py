@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import re
 
-def sum(filename: str) -> int:
+def challenge(filename: str) -> int:
 	result = 0
 	with open(filename, 'r') as fichier:
 		for line in fichier.readlines():
@@ -9,6 +9,6 @@ def sum(filename: str) -> int:
 			result += int(f"{digits[0]}{digits[-1]}")
 	return result
 
-print("sample: ", sum("sample1"))
-print("input: ", sum("input"))
+print("sample: ", challenge("sample1"))
+print("input: ", challenge("input"))
 

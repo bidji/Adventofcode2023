@@ -2,7 +2,7 @@
 import re
 
 
-def sums(filename: str) -> int:
+def challenge(filename: str) -> int:
 	result = 0
 	matrix = []
 
@@ -41,5 +41,5 @@ def sums(filename: str) -> int:
 	return result
 
 
-print("sample: ", sums(filename="sample"))
-print("input: ", sums(filename="input"))
+print("sample: ", challenge(filename="sample"))
+print("input: ", challenge(filename="input"))

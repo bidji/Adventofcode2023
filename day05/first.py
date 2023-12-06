@@ -2,7 +2,7 @@
 import re
 
 
-def sums(filename: str) -> int:
+def challenge(filename: str) -> int:
     seeds = []
     maps = {'seed-to-soil': [], 'soil-to-fertilizer': [], 'fertilizer-to-water': [],
             'water-to-light': [], 'light-to-temperature': [], 'temperature-to-humidity': [],
@@ -64,5 +64,5 @@ def convert(source, converters):
     return converted
 
 
-print("sample: ", sums(filename="sample"))
-print("input: ", sums(filename="input"))
+print("sample: ", challenge(filename="sample"))
+print("input: ", challenge(filename="input"))

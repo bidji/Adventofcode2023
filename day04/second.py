@@ -2,7 +2,7 @@
 import re
 
 
-def sums(filename: str) -> int:
+def challenge(filename: str) -> int:
 	scratchs = {}
 	line_number = 1
 	with open(filename, 'r') as data:
@@ -33,5 +33,5 @@ def sums(filename: str) -> int:
 	return result
 
 
-print("sample: ", sums(filename="sample"))
-print("input: ", sums(filename="input"))
+print("sample: ", challenge(filename="sample"))
+print("input: ", challenge(filename="input"))

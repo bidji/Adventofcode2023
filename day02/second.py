@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-def sums(filename: str) -> int:
+def challenge(filename: str) -> int:
 	result = 0
 	with open(filename, 'r') as data:
 		for line in data.readlines():
@@ -28,5 +28,5 @@ def sums(filename: str) -> int:
 	return result
 
 
-print("sample: ", sums(filename="sample"))
-print("input: ", sums(filename="input"))
+print("sample: ", challenge(filename="sample"))
+print("input: ", challenge(filename="input"))
